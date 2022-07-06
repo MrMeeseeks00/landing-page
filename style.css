@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+
+.left-links {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF9;
+}
+
+.right-links {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 5px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+li {
+    padding: 16px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.layer-1 {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.testo {
+    padding: 10px;
+    width: 420px;
+    margin: 30px;
+}
+
+.testo .titolo {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+button {
+    background-color: #4882f6;
+    color: white;
+    margin-top: 10px;
+    padding-inline: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.subtext {
+    font-size: 18px;
+}
+
+.testo .subtext {
+    color: #e5e7eb;
+}
+
+.immagine {
+    width: 450px;
+    background-color: gray;
+    padding: 100px;
+    text-align: center;
+}
+
+.layer-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+}
+
+.img-list {
+    display:flex;
+    flex-flow: row wrap;
+}
+
+.img-list .subtext {
+    width: 100px;
+    margin: 20px;
+}
+
+.layer-3 {
+    background-color: #e5e7eb;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    padding-inline: 150px;
+}
+
+.quote {
+    flex: 1 1 auto;
+    
+}
+
+.text {
+    font-size: 36px;
+    font: light italic;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#author {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.layer-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    
+}
+
+.blu-container {
+    background-color: #4882f6;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-inline: 150px;
+}
+
+.blu-container .signup {
+    border-color: #F9FAF9;
+    border-width: 5px;
+}
+
+.blu-container .testo {
+    padding: 0px;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
